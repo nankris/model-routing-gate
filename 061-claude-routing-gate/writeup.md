@@ -1,0 +1,7 @@
+# #061 writeup: a Haiku routing gate on tasks that didn't need one
+
+I wanted to know whether a cheap classifier in front of the solver, sending easy tasks to Haiku and hard ones to Opus, beats picking one model. I used #017's 10 small bug-fix tasks. Same CLI build, prompt and flags, so I could reuse #017's always-Haiku and always-Opus runs as the fixed arms. I re-ran always-Opus once to check for drift, and it matched within 1%.
+
+The gate called every task EASY. So the routed arm was "Haiku, plus a toll". Everything passed 10/10. Routed came to $0.0046 per task against $0.0035 for always-Haiku and $0.109 for always-Opus (API-equivalent). The gate cost about $0.0008 per call, roughly a fifth of a full Haiku solve, mostly Claude Code's own system prompt rather than my question. The rest of the gap to always-Haiku is Haiku being 10% pricier on this run than in #017, which I'd treat as noise.
+
+Honestly, this experiment can't answer its own question. Haiku already solves all of these tasks, so the best possible router just matches always-Haiku, and any real router pays a fee to get there. What I learned is narrower. The gate didn't over-escalate (zero false HARDs, which would each have cost ~30× a Haiku run). And on easy work it's a ~20–30% tax. Whether it pays off depends on tasks where Haiku actually fails, and on whether the gate can spot them. I never saw it say HARD, so that's still open. Next time I'd add a harder task set, and use a bare API call for the gate instead of a full `claude -p`.
