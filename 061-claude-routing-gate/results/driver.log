@@ -1,0 +1,20 @@
+opus_default_rerun__N01_median__r1: pass=True sub=None tok=82557 cc=13500 cr=68567 out=482 cost=$0.13138539999999999 turns=4 tools={'Bash': 3} wall=10s 5h=0.53 7d=0.78 
+routed__N01_median__r1: pass=True sub=None tok=98038 cc=18458 cr=78776 out=796 cost=$0.00487816 turns=5 tools={'Bash': 2, 'Read': 1, 'Edit': 1} wall=11s 5h=0.53 7d=0.78 
+routed__N02_duration__r1: pass=True sub=None tok=104124 cc=20473 cr=82465 out=1178 cost=$0.00550905 turns=6 tools={'Bash': 3, 'Read': 1, 'Edit': 1} wall=12s 5h=0.53 7d=0.78 
+opus_default_rerun__N02_duration__r1: pass=True sub=None tok=85046 cc=14463 cr=70043 out=532 cost=$0.1403846 turns=4 tools={'Bash': 3} wall=15s 5h=0.53 7d=0.78 
+routed__T02_duplicate__r1: pass=True sub=None tok=72889 cc=9999 cr=62200 out=682 cost=$0.0029636 turns=5 tools={'Bash': 2, 'Read': 1, 'Edit': 1} wall=8s 5h=0.55 7d=0.78 
+opus_default_rerun__N03_csv__r1: pass=True sub=None tok=86266 cc=14891 cr=70230 out=1137 cost=$0.155946 turns=4 tools={'Bash': 3} wall=14s 5h=0.56 7d=0.79 
+opus_default_rerun__T02_duplicate__r1: pass=True sub=None tok=69535 cc=9200 cr=59790 out=537 cost=$0.09633 turns=5 tools={'Bash': 3, 'Edit': 1} wall=10s 5h=0.57 7d=0.79 
+routed__N03_csv__r1: pass=True sub=None tok=133207 cc=20782 cr=110244 out=2171 cost=$0.0063453400000000005 turns=5 tools={'Bash': 3, 'Edit': 1} wall=16s 5h=0.57 7d=0.79 
+routed__T05_stale__r1: pass=True sub=None tok=73128 cc=10228 cr=61591 out=1301 cost=$0.0033128100000000002 turns=5 tools={'Bash': 3, 'Edit': 1} wall=11s 5h=0.58 7d=0.79 
+routed__T06_neardup__r1: pass=True sub=None tok=72407 cc=9963 cr=61814 out=622 cost=$0.0029225400000000004 turns=5 tools={'Bash': 3, 'Edit': 1} wall=10s 5h=0.59 7d=0.79 
+opus_default_rerun__T06_neardup__r1: pass=True sub=None tok=68707 cc=8841 cr=59481 out=377 cost=$0.0901962 turns=4 tools={'Bash': 3} wall=9s 5h=0.59 7d=0.79 
+opus_default_rerun__T05_stale__r1: pass=True sub=None tok=51193 cc=8549 cr=41949 out=689 cost=$0.0905858 turns=3 tools={'Bash': 2} wall=14s 5h=0.59 7d=0.79 
+routed__T07_multihunk__r1: pass=True sub=None tok=73360 cc=10420 cr=61821 out=1111 cost=$0.00325851 turns=6 tools={'Bash': 3, 'Edit': 2} wall=11s 5h=0.61 7d=0.79 
+routed__T08_insert__r1: pass=True sub=None tok=72438 cc=9952 cr=61673 out=805 cost=$0.00301043 turns=5 tools={'Bash': 3, 'Edit': 1} wall=12s 5h=0.64 7d=0.79 
+opus_default_rerun__T07_multihunk__r1: pass=True sub=None tok=69613 cc=9278 cr=59743 out=584 cost=$0.0978846 turns=4 tools={'Bash': 3} wall=13s 5h=0.64 7d=0.79 
+routed__T09_delete__r1: pass=True sub=None tok=72363 cc=9798 cr=62021 out=536 cost=$0.00284861 turns=5 tools={'Bash': 2, 'Read': 1, 'Edit': 1} wall=9s 5h=0.63 7d=0.79 
+opus_default_rerun__T08_insert__r1: pass=True sub=None tok=69546 cc=9226 cr=59774 out=538 cost=$0.09655480000000001 turns=6 tools={'Bash': 3, 'Read': 1, 'Edit': 1} wall=12s 5h=0.62 7d=0.79 
+routed__T10_replace_all__r1: pass=True sub=None tok=72734 cc=9930 cr=62183 out=613 cost=$0.00291513 turns=5 tools={'Bash': 2, 'Read': 1, 'Write': 1} wall=9s 5h=0.65 7d=0.79 
+opus_default_rerun__T09_delete__r1: pass=True sub=None tok=68516 cc=8775 cr=59349 out=384 cost=$0.08978180000000001 turns=4 tools={'Bash': 3} wall=12s 5h=0.64 7d=0.79 
+opus_default_rerun__T10_replace_all__r1: pass=True sub=None tok=69449 cc=9207 cr=59790 out=444 cost=$0.094526 turns=4 tools={'Bash': 3} wall=15s 5h=0.64 7d=0.79 

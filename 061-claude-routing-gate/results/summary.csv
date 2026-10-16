@@ -1,0 +1,5 @@
+arm,n,solved,run_cost,gate_cost,total_cost,cost_per_task,cost_per_solved,wall_per_task_s
+"always-Haiku (017 haiku_medium, reused)",10,10,0.0346,0.0,0.0346,0.00346,0.00346,9.4
+routed: Haiku gate -> Haiku/Opus (new),10,10,0.038,0.0076,0.0456,0.00456,0.00456,13.2
+"always-Opus (017 opus_default, reused)",10,10,1.0934,0.0,1.0934,0.10934,0.10934,10.2
+"always-Opus rerun (new, drift check)",10,10,1.0836,0.0,1.0836,0.10836,0.10836,12.5

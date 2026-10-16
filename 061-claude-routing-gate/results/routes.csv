@@ -1,0 +1,11 @@
+task,label,route_model,gate_cost_usd,gate_input,gate_cache_create,gate_cache_read,gate_output,gate_wall_s,raw_answer
+N01_median,EASY,haiku,0.0007929899999999999,2,3744,649,75,2.6,EASY
+N02_duration,EASY,haiku,0.00074939,2,3701,649,5,2.2,EASY
+N03_csv,EASY,haiku,0.00152479,2,7578,649,5,2.6,EASY
+T02_duplicate,EASY,haiku,0.00065699,2,3239,649,5,2.9,EASY
+T05_stale,EASY,haiku,0.0006597899999999999,2,3253,649,5,2.2,EASY
+T06_neardup,EASY,haiku,0.0006507899999999999,2,3208,649,5,2.1,EASY
+T07_multihunk,EASY,haiku,0.00064899,2,3199,649,5,3.0,EASY
+T08_insert,EASY,haiku,0.00063179,2,3113,649,5,2.5,EASY
+T09_delete,EASY,haiku,0.00063159,2,3112,649,5,2.1,EASY
+T10_replace_all,EASY,haiku,0.0006433900000000001,2,3171,649,5,2.3,EASY
