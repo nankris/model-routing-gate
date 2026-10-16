@@ -1,0 +1,20 @@
+--exp /workspace/work/tig/061-claude-routing-gate --cond routed --task /workspace/work/tig/_harness/fixtures/SUITE14/N01_median --rep 1 --timeout 600 --flag=--model --flag=haiku --flag=--effort --flag=medium
+--exp /workspace/work/tig/061-claude-routing-gate --cond opus_default_rerun --task /workspace/work/tig/_harness/fixtures/SUITE14/N01_median --rep 1 --timeout 600 --flag=--model --flag=opus
+--exp /workspace/work/tig/061-claude-routing-gate --cond routed --task /workspace/work/tig/_harness/fixtures/SUITE14/N02_duration --rep 1 --timeout 600 --flag=--model --flag=haiku --flag=--effort --flag=medium
+--exp /workspace/work/tig/061-claude-routing-gate --cond opus_default_rerun --task /workspace/work/tig/_harness/fixtures/SUITE14/N02_duration --rep 1 --timeout 600 --flag=--model --flag=opus
+--exp /workspace/work/tig/061-claude-routing-gate --cond routed --task /workspace/work/tig/_harness/fixtures/SUITE14/N03_csv --rep 1 --timeout 600 --flag=--model --flag=haiku --flag=--effort --flag=medium
+--exp /workspace/work/tig/061-claude-routing-gate --cond opus_default_rerun --task /workspace/work/tig/_harness/fixtures/SUITE14/N03_csv --rep 1 --timeout 600 --flag=--model --flag=opus
+--exp /workspace/work/tig/061-claude-routing-gate --cond routed --task /workspace/work/tig/_harness/fixtures/SUITE14/T02_duplicate --rep 1 --timeout 600 --flag=--model --flag=haiku --flag=--effort --flag=medium
+--exp /workspace/work/tig/061-claude-routing-gate --cond opus_default_rerun --task /workspace/work/tig/_harness/fixtures/SUITE14/T02_duplicate --rep 1 --timeout 600 --flag=--model --flag=opus
+--exp /workspace/work/tig/061-claude-routing-gate --cond routed --task /workspace/work/tig/_harness/fixtures/SUITE14/T05_stale --rep 1 --timeout 600 --flag=--model --flag=haiku --flag=--effort --flag=medium
+--exp /workspace/work/tig/061-claude-routing-gate --cond opus_default_rerun --task /workspace/work/tig/_harness/fixtures/SUITE14/T05_stale --rep 1 --timeout 600 --flag=--model --flag=opus
+--exp /workspace/work/tig/061-claude-routing-gate --cond routed --task /workspace/work/tig/_harness/fixtures/SUITE14/T06_neardup --rep 1 --timeout 600 --flag=--model --flag=haiku --flag=--effort --flag=medium
+--exp /workspace/work/tig/061-claude-routing-gate --cond opus_default_rerun --task /workspace/work/tig/_harness/fixtures/SUITE14/T06_neardup --rep 1 --timeout 600 --flag=--model --flag=opus
+--exp /workspace/work/tig/061-claude-routing-gate --cond routed --task /workspace/work/tig/_harness/fixtures/SUITE14/T07_multihunk --rep 1 --timeout 600 --flag=--model --flag=haiku --flag=--effort --flag=medium
+--exp /workspace/work/tig/061-claude-routing-gate --cond opus_default_rerun --task /workspace/work/tig/_harness/fixtures/SUITE14/T07_multihunk --rep 1 --timeout 600 --flag=--model --flag=opus
+--exp /workspace/work/tig/061-claude-routing-gate --cond routed --task /workspace/work/tig/_harness/fixtures/SUITE14/T08_insert --rep 1 --timeout 600 --flag=--model --flag=haiku --flag=--effort --flag=medium
+--exp /workspace/work/tig/061-claude-routing-gate --cond opus_default_rerun --task /workspace/work/tig/_harness/fixtures/SUITE14/T08_insert --rep 1 --timeout 600 --flag=--model --flag=opus
+--exp /workspace/work/tig/061-claude-routing-gate --cond routed --task /workspace/work/tig/_harness/fixtures/SUITE14/T09_delete --rep 1 --timeout 600 --flag=--model --flag=haiku --flag=--effort --flag=medium
+--exp /workspace/work/tig/061-claude-routing-gate --cond opus_default_rerun --task /workspace/work/tig/_harness/fixtures/SUITE14/T09_delete --rep 1 --timeout 600 --flag=--model --flag=opus
+--exp /workspace/work/tig/061-claude-routing-gate --cond routed --task /workspace/work/tig/_harness/fixtures/SUITE14/T10_replace_all --rep 1 --timeout 600 --flag=--model --flag=haiku --flag=--effort --flag=medium
+--exp /workspace/work/tig/061-claude-routing-gate --cond opus_default_rerun --task /workspace/work/tig/_harness/fixtures/SUITE14/T10_replace_all --rep 1 --timeout 600 --flag=--model --flag=opus
